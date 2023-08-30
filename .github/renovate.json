@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "config:recommended",
+    ":label(dependencies)",
+    ":timezone(Europe/Berlin)",
+    ":disableRateLimiting"
+  ],
+
+  "rebaseWhen": "conflicted",
+
+  "recreateWhen": "always",
+
+  "enabledManagers": ["dockerfile"],
+
+  "packageRules": [
+    {
+      "matchPackageNames": ["quay.io/kubecost1/opencost-ui"],
+      "customChangelogUrl": "https://github.com/opencost/opencost"
+    }
+  ]
+}
