@@ -1,4 +1,4 @@
-FROM quay.io/kubecost1/kubecost-cost-model:1.105.0
+FROM quay.io/kubecost1/kubecost-cost-model:1.106.2
 
 RUN echo "Hello, World!"
 
