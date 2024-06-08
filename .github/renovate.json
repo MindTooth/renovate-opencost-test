@@ -25,6 +25,10 @@
       "replacementVersion": "1.109.0"
     },
     {
+      "matchPackageNames": ["ghcr.io/opencost/opencost"],
+      "changelogUrl": "https://github.com/opencost/opencost"
+    },
+    {
       "matchPackageNames": ["softwaresecurityproject/zap-stable"],
       "sourceUrl": "https://github.com/zaproxy/zaproxy"
     }
