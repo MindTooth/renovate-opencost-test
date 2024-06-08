@@ -20,6 +20,10 @@
       "sourceUrl": "https://github.com/opencost/opencost-ui"
     },
     {
+      "matchPackageNames": ["quay.io/kubecost1/kubecost-cost-model"],
+      "sourceUrl": "https://github.com/opencost/opencost"
+    },
+    {
       "matchPackageNames": ["quay.io/kubecost1/opencost-ui"],
       "replacementName": "ghcr.io/opencost/opencost-ui",
       "replacementVersion": "1.109.0"

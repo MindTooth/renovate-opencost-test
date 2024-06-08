@@ -2,9 +2,9 @@
 
 # RUN echo "Hello, World!"
 
-FROM ghcr.io/opencost/opencost:1.109.0
+# FROM ghcr.io/opencost/opencost:1.109.0
 
-RUN echo "Hello, World!"
+# RUN echo "Hello, World!"
 
 # FROM quay.io/kubecost1/opencost-ui:1.108.0
 
@@ -17,3 +17,7 @@ RUN echo "Hello, World!"
 # FROM softwaresecurityproject/zap-stable:2.10.0
 
 # RUN echo "Hello, World!"
+
+FROM quay.io/kubecost1/opencost-ui:1.104.0
+
+RUN echo "Hello, World!"
