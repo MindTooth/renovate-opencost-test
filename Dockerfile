@@ -13,3 +13,7 @@ RUN echo "Hello, World!"
 FROM ghcr.io/opencost/opencost-ui:1.109.0
 
 RUN echo "Hello, World!"
+
+FROM softwaresecurityproject/zap-stable:2.10.0
+
+RUN echo "Hello, World!"
