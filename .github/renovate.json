@@ -26,7 +26,7 @@
     },
     {
       "matchPackageNames": ["ghcr.io/opencost/opencost"],
-      "changelogUrl": "https://github.com/opencost/opencost"
+      "customChangelogUrl": "https://github.com/opencost/opencost"
     },
     {
       "matchPackageNames": ["softwaresecurityproject/zap-stable"],
