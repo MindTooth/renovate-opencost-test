@@ -26,6 +26,6 @@ FROM ghcr.io/containerbase/buildpack:latest
 
 RUN echo "Hello, World!"
 
-FROM renovate/node:latest
+FROM ghcr.io/containerbase/node:latest
 
 RUN echo "Hello, World!"
