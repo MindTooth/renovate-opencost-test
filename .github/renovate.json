@@ -21,7 +21,7 @@
     },
     {
       "matchPackageNames": ["quay.io/kubecost1/kubecost-cost-model"],
-      "customChangelogRul": "https://github.com/opencost/opencost"
+      "customChangelogUrl": "https://github.com/opencost/opencost"
     },
     {
       "matchPackageNames": ["quay.io/kubecost1/opencost-ui"],
