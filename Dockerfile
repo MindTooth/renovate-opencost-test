@@ -22,7 +22,7 @@ RUN echo "Hello, World!"
 
 # RUN echo "Hello, World!"
 
-FROM ghcr.io/containerbase/buildpack:latest
+FROM ghcr.io/containerbase/base:latest
 
 RUN echo "Hello, World!"
 
