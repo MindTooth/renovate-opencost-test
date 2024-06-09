@@ -17,11 +17,11 @@
   "packageRules": [
     {
       "matchPackageNames": ["quay.io/kubecost1/opencost-ui"],
-      "sourceUrl": "https://github.com/opencost/opencost-ui"
+      "customChangelogUrl": "https://github.com/opencost/opencost"
     },
     {
       "matchPackageNames": ["quay.io/kubecost1/kubecost-cost-model"],
-      "sourceUrl": "https://github.com/opencost/opencost"
+      "customChangelogRul": "https://github.com/opencost/opencost"
     },
     {
       "matchPackageNames": ["quay.io/kubecost1/opencost-ui"],
@@ -34,7 +34,7 @@
     },
     {
       "matchPackageNames": ["softwaresecurityproject/zap-stable"],
-      "sourceUrl": "https://github.com/zaproxy/zaproxy"
+      "customChangelogUrl": "https://github.com/zaproxy/zaproxy"
     }
   ]
 }
