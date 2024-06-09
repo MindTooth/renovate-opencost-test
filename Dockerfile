@@ -6,9 +6,9 @@
 
 # RUN echo "Hello, World!"
 
-# FROM quay.io/kubecost1/opencost-ui:1.108.0
+FROM quay.io/kubecost1/opencost-ui:1.104.0
 
-# RUN echo "Hello, World!"
+RUN echo "Hello, World!"
 
 # FROM ghcr.io/opencost/opencost-ui:1.109.0
 
