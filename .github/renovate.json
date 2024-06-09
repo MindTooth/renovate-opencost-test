@@ -17,7 +17,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["quay.io/kubecost1/opencost-ui"],
-      "customChangelogUrl": "https://github.com/opencost/opencost-ui"
+      "customChangelogUrl": "https://github.com/opencost/opencost"
     },
     {
       "matchPackageNames": ["quay.io/kubecost1/kubecost-cost-model"],
