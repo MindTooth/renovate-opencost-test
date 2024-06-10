@@ -27,10 +27,6 @@
       "matchPackageNames": ["quay.io/kubecost1/opencost-ui"],
       "replacementName": "ghcr.io/opencost/opencost-ui",
       "replacementVersion": "1.109.0"
-    },
-    {
-      "matchPackageNames": ["softwaresecurityproject/zap-stable"],
-      "customChangelogUrl": "https://github.com/zaproxy/zaproxy"
     }
   ]
 }
